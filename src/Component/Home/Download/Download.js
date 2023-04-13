@@ -8,13 +8,16 @@ import img from "../.../../../../asete/banner/scren.png";
 
 const Download = () => {
     return (
-      <div className="lg:my-16 my-0 max-w-7xl mx-auto">
+      <div className="xl:my-16 lg:my-16 my-0 max-w-7xl mx-auto">
         <div className="md:flex block justify-center items-center lg:gap-14 xl:px-0 lg:px-8 md:px-8 px-4">
           <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
-            <h2 className="lg:text-4xl md:text-2xl text-xl  font-bold">
-              <span className="underline underline-offset-8">Download</span>
+            <h2 className="lg:text-4xl md:text-2xl text-xl">
+              <span className="relative z-[1] font-bold mr-2">
+                Download
+              </span>
               Vahan+ App
             </h2>
+            <div className="bg-[#F36E21] w-[175px] h-[8px] text-center absolute mt-[-11px]"></div>
             <p className="my-4 text-[17px]">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
@@ -44,12 +47,12 @@ const Download = () => {
           <div>
             <div className="absolute md:mt-0 mt-20">
               <img
-                className="xl:h-[600px] lg:h-[420px] md:h-[400px] h-[300px]"
+                className="xl:h-[600px] lg:h-[400px] md:h-[400px] h-[300px]"
                 src={bgPhoto}
                 alt=""
               />
             </div>
-            <div className="relative top-0 xl:mt-[50px] lg:mt-[520px] md:mt-[400px] mt-[1270px] xl:h-[600px] lg:h-[450px] md:h-[400px] h-[300px]">
+            <div className="relative top-0 xl:mt-[40px] lg:mt-[20px] md:mt-[20px] items-center mt-[0] xl:h-[600px] lg:h-[420px] md:h-[400px] h-[300px]">
               <img className="h-full" src={phone} alt="" />
             </div>
           </div>

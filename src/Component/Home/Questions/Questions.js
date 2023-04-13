@@ -8,7 +8,7 @@ const Questions = () => {
           related to Vahan+
         </h2>
 
-        <dir className="md:px-8 px-4 mt-8">
+        <dir className="md:px-8 px-4 mt-14">
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
             <div className="collapse-title text-xl font-medium my-2">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit

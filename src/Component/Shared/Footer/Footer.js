@@ -7,7 +7,7 @@ import app from '../../../asete/footer/App_Store_Badge_f39b9659af 1.png'
 const Footer = () => {
     return (
       <div className="bg-[#1B2551]">
-        <footer className="footer max-w-7xl mx-auto p-10  text-white md:flex block justify-between">
+        <footer className="footer max-w-7xl mx-auto p-10 text-white md:flex block justify-between">
           <div>
             <h2 className="text-3xl font-bold">VAHAN+</h2>
           </div>

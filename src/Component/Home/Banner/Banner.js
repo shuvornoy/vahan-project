@@ -7,9 +7,9 @@ const Banner = () => {
     <div className="banner">
       <div className="max-w-7xl mx-auto ">
         <div className="h-[75vh] px-4">
-          <div className="md:flex sm:block max-container mx-auto justify-between h-full items-center">
-            <div className="md:w-[695px] sm:w-[100%]  text-start text-white">
-              <h2 className="xl:text-[60px] lg:text-[60px] md:text-[30px] text-3xl font-[700]">
+          <div className="md:flex sm:block mx-auto justify-between h-full items-center">
+            <div className="md:w-[695px] sm:w-[100%] text-start text-white">
+              <h2 className="xl:text-[50px] lg:text-[50px] md:text-[30px] text-3xl font-[700]">
                 One Stop Solution
               </h2>
               <p className="text-3xl xl:text-[60px] lg:text-[60px] md:text-[25px] xl:leading-[68px] lg:leading-[68px] md:leading-[48px] font-[400]">
@@ -30,7 +30,7 @@ const Banner = () => {
                 </h2>
               </div>
             </div>
-            <div className=" md:w-[440px] sm:w-[100%] h-[513px] bg-white p-6 rounded flex justify-center items-center">
+            <div className=" md:w-[410px] sm:w-[100%] p-3 md:h-[450px] h-[500px] bg-white rounded flex justify-center items-center md:mt-0 mt-8">
               <div className="mx-auto">
                 <h2 className="text-[30px] text-center font-[700] mt-5">
                   Sign Up at Vahan +
@@ -62,7 +62,7 @@ const Banner = () => {
                     className="input input-bordered md:w-[163px] sm:w-[100%] h-[55px] font-[400] text-[18px]"
                   />
                 </div>
-                <button className="bg-[#f36e21] md:w-[360px] sm:w-[100%]   ml-[15px] mx-auto mt-5 h-[55px] text-white font-[700] md:text-[18px]  px-6">
+                <button className="bg-[#f36e21] md:w-[360px] sm:w-[100%]   ml-[15px] mx-auto mt-5 h-[55px] text-white font-[700] md:text-[18px]  px-6 mb-8">
                   PROCEED TO CONTINUE
                 </button>
               </div>

@@ -3,15 +3,18 @@ import features from '../../../asete/features/FEATURES.png'
 import img from '../../../asete/features/1.png'
 import img1 from '../../../asete/features/2.png'
 import img2 from '../../../asete/features/3.png'
+import { Link } from 'react-router-dom';
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Features = () => {
     return (
       <div className="max-w-7xl mx-auto my-8">
-        <h2 className="lg:text-3xl md:text-2xl xl font-bold text-center my-8">
-          Vahan+ Features
+        <h2 className="lg:text-3xl md:text-2xl font-bold text-center">
+          Vahan+ <span className=" relative z-[1]">Features</span>
         </h2>
-        <div className="grid lg:grid-cols-3 grid-cols-1 absolute gap-14 z-[1]">
-          <div className="card w-96 bg-[#ffffffd9] shadow-xl">
+        <div className="bg-[#F36E21] w-[124px] h-[8px] text-center absolute ml-[637px] mt-[-11px] "></div>
+        <div className=" max-w-7xl mx-auto grid md:grid-cols-3 grid-cols-1 md:absolute lg:gap-14 md:gap-4 z-[1] xl:px-0 lg:px-8 px-2 mt-8">
+          <div className="card  bg-[#ffffffd9] shadow-xl">
             <figure>
               <img className="w-[100%]" src={img} alt="Shoes" />
             </figure>
@@ -22,13 +25,18 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
               </p>
-              <div className="card-actions justify-start">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
+              <Link>
+                <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
+                  <span className="mr-4">Learn more</span>
+                  <p>
+                    <HiOutlineArrowNarrowRight />
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
 
-          <div className="card w-96 bg-[#ffffffd9] shadow-xl">
+          <div className="card md:my-0 my-4 bg-[#ffffffd9] shadow-xl">
             <figure>
               <img className="w-[100%]" src={img1} alt="Shoes" />
             </figure>
@@ -39,13 +47,18 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
               </p>
-              <div className="card-actions justify-start">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
+              <Link>
+                <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
+                  <span className="mr-4">Learn more</span>
+                  <p>
+                    <HiOutlineArrowNarrowRight />
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
 
-          <div className="card w-96 bg-[#ffffffd9] shadow-xl">
+          <div className="card bg-[#ffffffd9] shadow-xl">
             <figure>
               <img className="w-[100%]" src={img2} alt="Shoes" />
             </figure>
@@ -56,15 +69,20 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
               </p>
-              <div className="card-actions justify-start">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
+              <Link>
+                <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
+                  <span className="mr-4">Learn more</span>
+                  <p>
+                    <HiOutlineArrowNarrowRight />
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end md:px-1 px-4">
           <img
-            className="relative top-0 mt-[375px] h-[170px] "
+            className="md:relative top-0 mt-[375px] xl:h-[168px] lg:h-[130px] md:h-[100px] md:block hidden xl:mr-[-10px] lg:mr-6 md:ml-3"
             src={features}
             alt=""
           />
