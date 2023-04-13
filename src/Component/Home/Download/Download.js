@@ -12,12 +12,10 @@ const Download = () => {
         <div className="md:flex block justify-center items-center lg:gap-14 xl:px-0 lg:px-8 md:px-8 px-4">
           <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
             <h2 className="lg:text-4xl md:text-2xl text-xl">
-              <span className="relative z-[1] font-bold mr-2">
-                Download
-              </span>
+              <span className="relative z-[1] font-bold mr-2">Download</span>
               Vahan+ App
             </h2>
-            <div className="bg-[#F36E21] w-[175px] h-[8px] text-center absolute mt-[-11px]"></div>
+            <div className="bg-[#F36E21] xl:block hidden w-[175px] h-[8px] text-center absolute mt-[-11px]"></div>
             <p className="my-4 text-[17px]">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam

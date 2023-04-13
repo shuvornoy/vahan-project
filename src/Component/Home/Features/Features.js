@@ -12,7 +12,7 @@ const Features = () => {
         <h2 className="lg:text-3xl md:text-2xl font-bold text-center">
           Vahan+ <span className=" relative z-[1]">Features</span>
         </h2>
-        <div className="bg-[#F36E21] w-[124px] h-[8px] text-center absolute ml-[637px] mt-[-11px] "></div>
+        <div className="bg-[#F36E21] xl:block hidden w-[124px] h-[8px] text-center absolute ml-[637px] mt-[-11px] "></div>
         <div className=" max-w-7xl mx-auto grid md:grid-cols-3 grid-cols-1 md:absolute lg:gap-14 md:gap-4 z-[1] xl:px-0 lg:px-8 px-2 mt-8">
           <div className="card  bg-[#ffffffd9] shadow-xl">
             <figure>

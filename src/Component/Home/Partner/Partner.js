@@ -68,7 +68,7 @@ const Partner = () => {
                   Car Partner
                 </span>
               </h2>
-              <div className="bg-[#F36E21] w-[200px] h-[8px] text-center absolute ml-[76px] mt-[-11px] "></div>
+              <div className="bg-[#F36E21] xl:block hidden w-[200px] h-[8px] text-center absolute ml-[76px] mt-[-11px] "></div>
               <p className="my-6 lg:text-xl md:text-[16px] text-xl">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
