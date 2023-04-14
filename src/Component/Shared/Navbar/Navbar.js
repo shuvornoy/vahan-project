@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../../asete/logo/Layer_1.png'
 
 const Navbar = () => {
   return (
@@ -50,7 +51,9 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-          <Link className="text-xl"> VAHAN+</Link>
+          <Link className="text-xl"> 
+          <img src={logo} alt="" />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

@@ -62,13 +62,13 @@ const Partner = () => {
               </div>
             </div>
             <div className=" lg:w-[50%] md:w-[50%] w-full mt-10 md:mt-0">
-              <h2 className="lg:text-4xl md:text-2xl text-xl">
+              <h2 className="lg:text-4xl text-2xl">
                 Why Choose Vahan+ as <br /> your
                 <span className="relative z-[1] font-bold ml-2">
                   Car Partner
                 </span>
               </h2>
-              <div className="bg-[#F36E21] xl:block hidden w-[200px] h-[8px] text-center absolute ml-[76px] mt-[-11px] "></div>
+              <div className="bg-[#F36E21] lg:w-[190px] md:w-[126px] w-[126px] h-[8px] text-center absolute lg:ml-[78px] md:ml-[56px] ml-[56px] mt-[-11px] "></div>
               <p className="my-6 lg:text-xl md:text-[16px] text-xl">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna

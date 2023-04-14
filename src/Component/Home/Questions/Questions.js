@@ -4,10 +4,9 @@ const Questions = () => {
     return (
       <div className="my-8 max-w-7xl mx-auto">
         <h2 className="lg:text-4xl md:text-2xl text-xl font-bold text-center">
-          <span className="relative z-[1]">Questions</span>{" "}
-          related to Vahan+
+          <span className="relative z-[1]">Questions</span> related to Vahan+
         </h2>
-        <div className="bg-[#F36E21] xl:block hidden w-[174px] h-[8px] text-center absolute ml-[396px] mt-[-10px]"></div>
+        <div className="bg-[#F36E21] lg:w-[174px] md:w-[120px] w-[100px] h-[8px] text-center absolute xl:ml-[396px] lg:ml-[270px] md:ml-[220px] ml-[24px] mt-[-10px]"></div>
 
         <dir className="md:px-8 px-4 mt-14">
           <div tabIndex={0} className="collapse collapse-plus border-t-2">

@@ -2,14 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagramSquare } from "react-icons/fa";
 import google from '../../../asete/footer/Google_Play_Badge_001eb0f465 1.png'
-import app from '../../../asete/footer/App_Store_Badge_f39b9659af 1.png'
+import app from '../../../asete/footer/App_Store_Badge_f39b9659af 1.png';
+import footer from "../../../asete/logo/logo.png";
 
 const Footer = () => {
     return (
       <div className="bg-[#1B2551]">
         <footer className="footer max-w-7xl mx-auto p-10 text-white md:flex block justify-between">
-          <div>
-            <h2 className="text-3xl font-bold">VAHAN+</h2>
+          <div className='text-white'>
+            <img src={footer} alt="" />
           </div>
           <div className="md:w-[325px] w-full text-xl">
             <p>
