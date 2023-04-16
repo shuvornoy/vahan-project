@@ -9,18 +9,18 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const Features = () => {
     return (
       <div className="max-w-7xl mx-auto my-8">
-        <h2 className="lg:text-3xl text-2xl font-bold text-center">
+        <h2 className="lg:text-3xl text-2xl sansBold text-center">
           Vahan+ <span className=" relative z-[1]">Features</span>
         </h2>
-        <div className="bg-[#F36E21] lg:w-[122px] md:w-[98px] w-[94px] h-[8px] text-center absolute xl:ml-[637px] lg:ml-[510px] md:ml-[382px] ml-[160px] mt-[-11px] "></div>
+        <div className="bg-[#F36E21] lg:w-[122px] md:w-[98px] w-[97px] h-[8px] text-center absolute xl:ml-[634px] lg:ml-[506px] md:ml-[379px] ml-[155px] mt-[-11px] "></div>
         <div className=" max-w-7xl mx-auto grid md:grid-cols-3 grid-cols-1 md:absolute lg:gap-14 md:gap-4 z-[1] xl:px-0 lg:px-8 px-2 mt-8">
           <div className="card  bg-[#ffffffd9] shadow-xl">
             <figure>
               <img className="w-[100%]" src={img} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Fuel Management</h2>
-              <p>
+              <h2 className="card-title sansBold">Fuel Management</h2>
+              <p className="interReg">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
@@ -41,8 +41,8 @@ const Features = () => {
               <img className="w-[100%]" src={img1} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Car Wash</h2>
-              <p>
+              <h2 className="card-title sansBold">Car Wash</h2>
+              <p className="interReg">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
@@ -63,8 +63,8 @@ const Features = () => {
               <img className="w-[100%]" src={img2} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Know your Vahan</h2>
-              <p>
+              <h2 className="card-title sansBold">Know your Vahan</h2>
+              <p className="interReg">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../../../asete/logo/Layer_1.png'
+import logo from '../../../asete/logo/Layer_1.png';
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -28,57 +29,60 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
+              <li className="interBold">
                 <Link>Home</Link>
               </li>
-              <li tabIndex={0}>
+              <li className="robotoRegular" tabIndex={0}>
                 <Link>Features</Link>
               </li>
-              <li>
+              <li className="robotoRegular">
                 <Link>Pricing</Link>
               </li>
-              <li>
+              <li className="robotoRegular">
                 <Link>Products</Link>
               </li>
-              <li>
+              <li className="robotoRegular">
                 <Link>Contact Us</Link>
               </li>
-              <Link className="hover:bg-[#f36e21] px-3 py-1 rounded hover:text-white text-[14px] ">
+              <Link className="hover:bg-[#f36e21] px-3 py-1 rounded hover:text-white text-[14px] interBold">
                 <button>LOG IN</button>
               </Link>
-              <Link className="ml-2 bg-[#f36e21] px-3 py-1 rounded text-white text-[14px]">
+              <Link className="ml-2 bg-[#f36e21] px-3 py-1 rounded text-white text-[14px] sansBold">
                 <button>REGISTER</button>
               </Link>
             </ul>
           </div>
-          <Link className="text-xl"> 
-          <img src={logo} alt="" />
+          <Link className="text-xl">
+            <img src={logo} alt="" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
+          <ul className="menu menu-horizontal px-1 text-[16px]">
+            <li className="interBold">
               <Link>Home</Link>
             </li>
-            <li tabIndex={0}>
+            <li className="robotoRegular" tabIndex={0}>
               <Link>Features</Link>
             </li>
-            <li>
+            <li className="robotoRegular">
               <Link>Pricing</Link>
             </li>
-            <li>
+            <li className="robotoRegular">
               <Link>Products</Link>
             </li>
-            <li>
+            <li className="robotoRegular">
               <Link>Contact Us</Link>
             </li>
+            <button className="btn btn-ghost btn-circle">
+              <CiSearch size={24} />
+            </button>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="hover:bg-[#f36e21] px-3 py-1 rounded hover:text-white text-[14px] hidden lg:block">
+          <Link className="hover:bg-[#f36e21] px-3 py-1 rounded hover:text-white hidden lg:block text-[16px] interBold">
             <button>LOG IN</button>
           </Link>
-          <Link className="ml-2 bg-[#f36e21] px-3 py-1 rounded text-white text-[14px] hidden lg:block">
+          <Link className="ml-2 bg-[#f36e21] px-3 py-1 rounded text-white hidden lg:block text-[16px] sansBold">
             <button>REGISTER</button>
           </Link>
         </div>

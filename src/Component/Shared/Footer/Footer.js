@@ -9,10 +9,10 @@ const Footer = () => {
     return (
       <div className="bg-[#1B2551]">
         <footer className="footer max-w-7xl mx-auto p-10 text-white md:flex block justify-between">
-          <div className='text-white'>
+          <div className="text-white">
             <img src={footer} alt="" />
           </div>
-          <div className="md:w-[325px] w-full text-xl">
+          <div className="md:w-[325px] w-full text-xl interReg">
             <p>
               Hello, we are ABC. trying to make an effort to put the right
               people for you to get the best results. Just insight
@@ -26,7 +26,7 @@ const Footer = () => {
               <FaFacebookF />
             </div>
           </div>
-          <div className="text-xl ">
+          <div className="text-xl interReg">
             <span className="footer-title">Features</span>
             <Link className="link link-hover">Add Your Car</Link>
             <Link className="link link-hover">Know Your Vahan</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
               <img className="mt-2 md:mt-0" src={app} alt="" />
             </div>
           </div>
-          <div className="text-xl">
+          <div className="text-xl interReg">
             <span className="footer-title">Explore</span>
             <Link className="link link-hover">Resources</Link>
             <Link className="link link-hover">Blog</Link>

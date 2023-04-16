@@ -12,10 +12,10 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className=" lg:text-[16] md:text-[12px] text-xl font-bold my-2">
+                    <h2 className=" lg:text-[18px] md:text-[12px] text-xl sansBold my-2">
                       Use You Connect
                     </h2>
-                    <p className="leading-[1] lg:text-[16px] text-[12px]">
+                    <p className="leading-[1] lg:text-[16px] text-[12px] interReg">
                       Now track all of your transaction easily.
                     </p>
                   </div>
@@ -24,10 +24,10 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className=" lg:text-[16] md:text-[12px] text-xl font-bold my-2">
+                    <h2 className=" lg:text-[18px] md:text-[12px] text-xl sansBold my-2">
                       Use You Connect
                     </h2>
-                    <p className="leading-[1] lg:text-[16px] text-[12px]">
+                    <p className="leading-[1] lg:text-[16px] text-[12px] interReg">
                       Now track all of your transaction easily.
                     </p>
                   </div>
@@ -39,10 +39,10 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className=" lg:text-[16] md:text-[12px] text-xl font-bold my-2">
+                    <h2 className=" lg:text-[18px] md:text-[12px] text-xl sansBold my-2">
                       Use You Connect
                     </h2>
-                    <p className="leading-[1] lg:text-[16px] text-[12px]">
+                    <p className="leading-[1] lg:text-[16px] text-[12px] interReg">
                       Now track all of your transaction easily.
                     </p>
                   </div>
@@ -51,10 +51,10 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className=" lg:text-[16] md:text-[12px] text-xl font-bold my-2">
+                    <h2 className=" lg:text-[18px] md:text-[12px] text-xl sansBold my-2">
                       Use You Connect
                     </h2>
-                    <p className="leading-[1] lg:text-[16px] text-[12px]">
+                    <p className="leading-[1] lg:text-[16px] text-[12px] interReg">
                       Now track all of your transaction easily.
                     </p>
                   </div>
@@ -62,21 +62,21 @@ const Partner = () => {
               </div>
             </div>
             <div className=" lg:w-[50%] md:w-[50%] w-full mt-10 md:mt-0">
-              <h2 className="lg:text-4xl text-2xl">
+              <h2 className="lg:text-4xl text-2xl sansReg">
                 Why Choose Vahan+ as <br /> your
-                <span className="relative z-[1] font-bold ml-2">
+                <span className="relative z-[1] ml-2 sansBold">
                   Car Partner
                 </span>
               </h2>
-              <div className="bg-[#F36E21] lg:w-[190px] md:w-[126px] w-[126px] h-[8px] text-center absolute lg:ml-[78px] md:ml-[56px] ml-[56px] mt-[-11px] "></div>
-              <p className="my-6 lg:text-xl md:text-[16px] text-xl">
+              <div className="bg-[#F36E21] lg:w-[190px] md:w-[126px] w-[126px] h-[8px] text-center absolute lg:ml-[78px] md:ml-[54px] ml-[55px] mt-[-11px] "></div>
+              <p className="my-6 lg:text-xl md:text-[16px] text-xl interReg">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                 laoreet dolore magna aliquam erat volutpat.
               </p>
-              <button className="px-4 py-1 bg-[#F36E21] text-white rounded">
+              <button className="px-4 py-1 bg-[#F36E21] text-white rounded sansBold">
                 GET STARTED NOW
               </button>
             </div>

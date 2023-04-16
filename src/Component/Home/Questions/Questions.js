@@ -3,17 +3,18 @@ import React from 'react';
 const Questions = () => {
     return (
       <div className="my-8 max-w-7xl mx-auto">
-        <h2 className="lg:text-4xl md:text-2xl text-xl font-bold text-center">
-          <span className="relative z-[1]">Questions</span> related to Vahan+
+        <h2 className="lg:text-4xl md:text-2xl text-xl text-center ">
+          <span className="relative z-[1] sansBold">Questions</span> related to
+          Vahan+
         </h2>
-        <div className="bg-[#F36E21] lg:w-[174px] md:w-[120px] w-[100px] h-[8px] text-center absolute xl:ml-[396px] lg:ml-[270px] md:ml-[220px] ml-[24px] mt-[-10px]"></div>
+        <div className="bg-[#F36E21] lg:w-[172px] md:w-[112px] w-[96px] h-[8px] text-center absolute xl:ml-[407px] lg:ml-[280px] md:ml-[230px] ml-[30px] mt-[-10px]"></div>
 
         <dir className="md:px-8 px-4 mt-14">
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2">
+            <div className="collapse-title text-xl font-medium my-2 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
-            <div className="collapse-content">
+            <div className="collapse-content interReg">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -23,10 +24,10 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2">
+            <div className="collapse-title text-xl font-medium my-2 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
-            <div className="collapse-content">
+            <div className="collapse-content interReg">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -36,10 +37,10 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2">
+            <div className="collapse-title text-xl font-medium my-2 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
-            <div className="collapse-content">
+            <div className="collapse-content interReg">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -49,10 +50,10 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2">
+            <div className="collapse-title text-xl font-medium my-2 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
-            <div className="collapse-content">
+            <div className="collapse-content interReg">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -62,10 +63,10 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2">
+            <div className="collapse-title text-xl font-medium my-2 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
-            <div className="collapse-content">
+            <div className="collapse-content interReg">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci

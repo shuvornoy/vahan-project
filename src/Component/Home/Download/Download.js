@@ -11,12 +11,12 @@ const Download = () => {
       <div className="lg:my-16 my-8 max-w-7xl mx-auto">
         <div className="md:flex block justify-center items-center lg:gap-14 xl:px-0 lg:px-8 md:px-8 px-4">
           <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
-            <h2 className="lg:text-4xl md:text-3xl text-2xl">
-              <span className="relative z-[1] font-bold mr-2">Download</span>
+            <h2 className="lg:text-4xl md:text-3xl text-2xl sansReg">
+              <span className="relative z-[1] sansBold mr-2">Download</span>
               Vahan+ App
             </h2>
-            <div className="bg-[#F36E21] lg:w-[175px] md:w-[146px] w-[116px] h-[8px] text-center absolute mt-[-11px]"></div>
-            <p className="my-4 text-[17px]">
+            <div className="bg-[#F36E21] lg:w-[166px] md:w-[139px] w-[111px] h-[8px] text-center absolute mt-[-11px]"></div>
+            <p className="my-4 text-[17px] interReg">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -37,7 +37,7 @@ const Download = () => {
             </div>
             <div className="flex items-center">
               <img className="h-[60px]" src={img} alt="" />
-              <h2 className="w-[130px] leading-[1] ml-[10px]">
+              <h2 className="w-[130px] leading-[1] ml-[10px] sansBold">
                 SCAN TO DOWNLOAD VAHAN+ APP
               </h2>
             </div>
