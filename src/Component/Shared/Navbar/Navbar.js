@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link>Pricing</Link>
               </li>
               <li className="robotoRegular">
-                <Link>Products</Link>
+                <Link to="product">Products</Link>
               </li>
               <li className="robotoRegular">
                 <Link>Contact Us</Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
               <Link>Pricing</Link>
             </li>
             <li className="robotoRegular">
-              <Link>Products</Link>
+              <Link to="product">Products</Link>
             </li>
             <li className="robotoRegular">
               <Link>Contact Us</Link>
