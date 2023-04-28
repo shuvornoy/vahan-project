@@ -17,6 +17,10 @@
   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
 }
 @font-face {
+  font-family: interSemi;
+ src: url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&family=Inter:wght@600&family=Poppins&family=Roboto&display=swap');
+}
+@font-face {
   font-family: interReg;
   src: url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
 }
@@ -52,6 +56,9 @@ code {
 .interBold{
   font-family: interBold;
 }
+.interSemi{
+  font-family: interSemi;
+}
 .interReg{
   font-family: interReg;
 }
@@ -60,4 +67,12 @@ code {
 }
 .hindVad{
   font-family: hindVad;
+}
+
+
+
+/*--- site box -----*/
+.active{
+  background-color:#E9E9EA;
+  border-radius: 8px;
 }

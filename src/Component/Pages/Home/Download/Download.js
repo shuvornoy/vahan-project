@@ -1,9 +1,9 @@
 import React from 'react';
-import bgPhoto from '../.../../../../asete/download/Ellipse 19.png';
-import phone from '../.../../../../asete/download/download.png';
-import google from "../.../../../../asete/footer/Google_Play_Badge_001eb0f465 1.png";
-import app from "../.../../../../asete/footer/App_Store_Badge_f39b9659af 1.png";
-import img from "../.../../../../asete/banner/scren.png";
+import bgPhoto from '../.../../../../../asete/download/Ellipse 19.png';
+import phone from '../.../../../../../asete/download/download.png';
+import google from "../.../../../../../asete/footer/Google_Play_Badge_001eb0f465 1.png";
+import app from "../.../../../../../asete/footer/App_Store_Badge_f39b9659af 1.png";
+import img from "../.../../../../../asete/banner/scren.png";
 
 
 const Download = () => {

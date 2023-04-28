@@ -1,8 +1,8 @@
 import React from 'react';
-import features from '../../../asete/features/FEATURES.png'
-import img from '../../../asete/features/1.png'
-import img1 from '../../../asete/features/2.png'
-import img2 from '../../../asete/features/3.png'
+import features from '../../../../asete/features/FEATURES.png'
+import img from '../../../../asete/features/1.png'
+import img1 from '../../../../asete/features/2.png'
+import img2 from '../../../../asete/features/3.png'
 import { Link } from 'react-router-dom';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
@@ -25,7 +25,7 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
               </p>
-              <Link>
+              <Link to="/fuel">
                 <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
                   <span className="mr-4">Learn more</span>
                   <p>
@@ -47,7 +47,7 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
               </p>
-              <Link>
+              <Link to="/wash">
                 <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
                   <span className="mr-4">Learn more</span>
                   <p>
@@ -69,7 +69,7 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
               </p>
-              <Link>
+              <Link to="/choose">
                 <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
                   <span className="mr-4">Learn more</span>
                   <p>

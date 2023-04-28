@@ -1,5 +1,5 @@
 import React from 'react';
-import review from '../../../asete/review/Group.png'
+import review from '../../../../asete/review/Group.png'
 
 const Review = () => {
     return (
