@@ -2,8 +2,6 @@ import React from "react";
 import BannerSmoll from "../../AllBanner/BannerSmoll/BannerSmoll";
 import AllSiteManu from "../../SiteBar/AllSiteManu/AllSiteManu";
 
-
-
 const YourPackage = () => {
   return (
     <div>
@@ -29,8 +27,9 @@ const YourPackage = () => {
             </div>
             <div className="flex justify-between items-center lg:px-[50px] px-4 text-[14px] font-medium interReg my-4">
               <h2>Package Includes:</h2>
-              <div>
-                <h3 className="site-box">Daily Car Wash</h3>
+              <div className="flex justify-center">
+                <h3 className="site-box">Daily Car Wash</h3>{" "}
+                <div className="bg-[#F36E21] w-[10px] h-[10px] mx-3 mt-1"></div>
               </div>
             </div>
             <div className="lg:px-[50px] px-4 pb-4">
@@ -51,9 +50,15 @@ const YourPackage = () => {
             </div>
             <div className="flex justify-between items-center lg:px-[50px] px-4 text-[14px] font-medium interReg my-4">
               <h2>Package Includes:</h2>
-              <div>
-                <h3>Daily Car Wash</h3>
-                <h3>Weekly Vaccum</h3>
+              <div className="flex justify-center">
+                <div>
+                  <h3>Daily Car Wash</h3>
+                  <h3>Weekly Vaccum</h3>
+                </div>
+                <div>
+                  <div className="bg-[#F36E21] w-[10px] h-[10px] mx-3 mt-1"></div>
+                  <div className="bg-[#F36E21] w-[10px] h-[10px] mx-3 mt-3"></div>
+                </div>
               </div>
             </div>
             <div className="lg:px-[50px] px-4 pb-4">
@@ -73,10 +78,17 @@ const YourPackage = () => {
             </div>
             <div className="flex justify-between items-center lg:px-[50px] px-4 text-[14px] font-medium interReg my-4">
               <h2>Package Includes:</h2>
-              <div>
-                <h3>Daily Car Wash</h3>
-                <h3>Weekly Vaccum</h3>
-                <h3>Water Wash</h3>
+              <div className="flex justify-center">
+                <div>
+                  <h3>Daily Car Wash</h3>
+                  <h3>Weekly Vaccum</h3>
+                  <h3>Water Wash</h3>
+                </div>
+                <div>
+                  <div className="bg-[#F36E21] w-[10px] h-[10px] mx-3 mt-1"></div>
+                  <div className="bg-[#F36E21] w-[10px] h-[10px] mx-3 mt-3"></div>
+                  <div className="bg-[#F36E21] w-[10px] h-[10px] mx-3 mt-3"></div>
+                </div>
               </div>
             </div>
             <div className="lg:px-[50px] px-4 pb-4">

@@ -13,6 +13,7 @@ import ViewLog from "../Pages/AllVehicles/ViewLog/ViewLog";
 import AllVehicle from "../Pages/AllVahan/AllVehicle/AllVehicle";
 import AddNewVehicle from "../Pages/AllVahan/AddNewVehicle/AddNewVehicle";
 import CalculateFuel from "../Pages/AllVahan/CalculateFuel/CalculateFuel";
+import LandingPage from "../LandingPage/LandingPage";
 
 
 
@@ -25,58 +26,63 @@ import CalculateFuel from "../Pages/AllVahan/CalculateFuel/CalculateFuel";
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <LandingPage />,
+  },
+  {
+    path: "/main",
     element: <Main />,
+
     children: [
       {
-        path: "/",
+        path: "/main/home",
         element: <Home />,
       },
       {
-        path: "/wash",
+        path: "/main/wash",
         element: <Product />,
       },
       {
-        path: "/package",
+        path: "/main/package",
         element: <YourPackage />,
       },
       {
-        path: "/schedule",
+        path: "/main/schedule",
         element: <Schedule />,
       },
       {
-        path: "/order",
+        path: "/main/order",
         element: <Order />,
       },
       {
-        path: "/subscriptions",
+        path: "/main/subscriptions",
         element: <Subscriptions />,
       },
       {
-        path: "/fuel",
+        path: "/main/fuel",
         element: <FeaturesService />,
       },
       {
-        path: "/management",
+        path: "/main/management",
         element: <Manage />,
       },
       {
-        path: "/log",
+        path: "/main/log",
         element: <FuelLog />,
       },
       {
-        path: "/view",
+        path: "/main/view",
         element: <ViewLog />,
       },
       {
-        path: "/choose",
+        path: "/main/choose",
         element: <AllVehicle />,
       },
       {
-        path: "/add",
+        path: "/main/add",
         element: <AddNewVehicle />,
       },
       {
-        path: "/calculate",
+        path: "/main/calculate",
         element: <CalculateFuel />,
       },
     ],

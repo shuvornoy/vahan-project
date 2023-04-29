@@ -12,7 +12,7 @@ const AllSiteManu = () => {
           to="/wash"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded ">
-            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold">
+            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
               Add Your Car
             </h2>
             <span className="text-[#F36E21]">
@@ -26,7 +26,7 @@ const AllSiteManu = () => {
           to="/package"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
-            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold">
+            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
               Choose Your Package
             </h2>
             <span className="text-[#F36E21]">
@@ -40,7 +40,7 @@ const AllSiteManu = () => {
           to="/schedule"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
-            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold">
+            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
               Sceudual Car Wash
             </h2>
             <span className="text-[#F36E21]">
@@ -54,7 +54,7 @@ const AllSiteManu = () => {
           to="/order"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
-            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold">
+            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
               Order Summary
             </h2>
             <span className="text-[#F36E21]">
@@ -68,7 +68,7 @@ const AllSiteManu = () => {
           to="/subscriptions"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
-            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold">
+            <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
               Your Subscriptions
             </h2>
             <span className="text-[#F36E21]">

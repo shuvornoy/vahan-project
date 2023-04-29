@@ -71,8 +71,20 @@ code {
 
 
 
-/*--- site box -----*/
+/*--- site bar active -----*/
 .active{
   background-color:#E9E9EA;
   border-radius: 8px;
+}
+
+/*---- landing page css -----*/
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+ background: linear-gradient(to bottom,#11428800 0%, #626d97 148.36%);
+
+  
 }

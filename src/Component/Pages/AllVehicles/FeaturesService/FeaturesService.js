@@ -10,15 +10,15 @@ const FeaturesService = () => {
       <div className="mb-14 md:mt-[170px] mt-[100px] block md:flex justify-between items-baseline gap-4 max-w-7xl mx-auto xl:px-0 px-2">
         <Vehicles />
 
-        <div className="xl:w-[800px] lg:w-[570px] w-full shadow-2xl bg-base-100 xl:px-16 lg:p-12 md:p-8 p-4">
-          <h2 className="lg:text-[42px] md:text-[30px] text-[28px] font-semibold">
+        <div className="xl:w-[800px] lg:w-[570px] md:w-[420px] w-full shadow-2xl bg-base-100 xl:px-16 lg:p-12 md:p-8 p-4">
+          <h2 className="lg:text-[42px] md:text-[30px] text-[28px] font-semibold interBold">
             All Vehicles
           </h2>
           <div className="flex justify-start gap-4 my-8">
             <div className="w-full">
               <div className="flex justify-between items-center xl:text-[18px] lg:text-[16px] md:text-[14px] text-[10px] ">
-                <p className="font-bold">Car Name/Company</p>
-                <p className="text-[#F36E21]">Edit</p>
+                <p className="font-bold interReg">Car Name/Company</p>
+                <p className="text-[#F36E21] interReg font-medium">Edit</p>
               </div>
               <h2 className="lg:text-[16px] md:text-[14px] text-[9px] font-medium">
                 Car Model No
@@ -26,8 +26,8 @@ const FeaturesService = () => {
             </div>
             <div className="w-full">
               <div className="flex justify-between items-center xl:text-[18px] lg:text-[16px] md:text-[14px] text-[10px]">
-                <p className="font-bold">Car Name/Company</p>
-                <p className="text-[#F36E21]">Edit</p>
+                <p className="font-bold interReg">Car Name/Company</p>
+                <p className="text-[#F36E21] interReg font-medium">Edit</p>
               </div>
               <h2 className="lg:text-[16px] md:text-[14px] text-[9px] font-medium">
                 Car Model No
@@ -46,7 +46,9 @@ const FeaturesService = () => {
               alt="img"
             />
           </div>
-          <button className="btn bg-[#F36E21] w-full mt-6 border-none">CONTINUE</button>
+          <button className="btn bg-[#F36E21] w-full mt-6 border-none sansBold font-bold text-[18px]">
+            CONTINUE
+          </button>
         </div>
       </div>
     </div>
