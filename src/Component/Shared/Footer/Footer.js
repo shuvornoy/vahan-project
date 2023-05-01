@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="md:w-[325px] w-full text-xl interReg">
             <p>
               Hello, we are ABC. trying to make an effort to put the right
-              people for you to get the best results. Just insight
+              people for you to get the best results. Just insight,
             </p>
             <Link className="link link-hover mt-10">(123) 456-7890</Link>
             <Link className="link link-hover">ABC@gmail.com</Link>
