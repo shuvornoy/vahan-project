@@ -14,6 +14,8 @@ import AllVehicle from "../Pages/AllVahan/AllVehicle/AllVehicle";
 import AddNewVehicle from "../Pages/AllVahan/AddNewVehicle/AddNewVehicle";
 import CalculateFuel from "../Pages/AllVahan/CalculateFuel/CalculateFuel";
 import LandingPage from "../LandingPage/LandingPage";
+import LogIn from "../Pages/LogIn/LogIn";
+import SignUp from "../Pages/SignUp/SignUp";
 
 
 
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
     element: <Main />,
 
     children: [
+      {
+        path: "/main/login",
+        element: <LogIn />,
+      },
+      {
+        path: "/main/signup",
+        element: <SignUp />,
+      },
       {
         path: "/main/home",
         element: <Home />,

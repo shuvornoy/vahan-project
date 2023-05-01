@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import BannerSmoll from "../../AllBanner/BannerSmoll/BannerSmoll";
 import AllSiteManu from "../../SiteBar/AllSiteManu/AllSiteManu";
-import { DayPicker } from "react-day-picker";
 import { Link } from "react-router-dom";
+import Calendars from "../../../Calendars/Calendars";
 
 const Subscriptions = () => {
-  const [selected, setSelected] = useState(new Date());
+ 
   return (
     <div>
       <BannerSmoll />
@@ -20,12 +20,7 @@ const Subscriptions = () => {
             Below are your subscription details:
           </p>
           <div className="w-full">
-            <DayPicker
-              mode="single"
-              selected={selected}
-              onSelect={setSelected}
-              className="w-full"
-            />
+            <Calendars />
           </div>
           <Link>
             <p className="text-end text-[14px] interReg font-medium my-4">

@@ -25,7 +25,7 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
               </p>
-              <Link to="/fuel">
+              <Link to="/main/fuel">
                 <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
                   <span className="mr-4">Learn more</span>
                   <p>
@@ -47,7 +47,7 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
               </p>
-              <Link to="/wash">
+              <Link to="/main/wash">
                 <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
                   <span className="mr-4">Learn more</span>
                   <p>
@@ -69,7 +69,7 @@ const Features = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.{" "}
               </p>
-              <Link to="/choose">
+              <Link to="/main/choose">
                 <div className="flex justify-start items-center text-[15px] text-[#F36E21]">
                   <span className="mr-4">Learn more</span>
                   <p>

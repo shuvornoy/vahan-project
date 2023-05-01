@@ -9,7 +9,7 @@ const AllSiteManu = () => {
       <div>
         <NavLink
           className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-          to="/wash"
+          to="/main/wash"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded ">
             <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
@@ -23,7 +23,7 @@ const AllSiteManu = () => {
 
         <NavLink
           className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-          to="/package"
+          to="/main/package"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
             <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
@@ -37,7 +37,7 @@ const AllSiteManu = () => {
 
         <NavLink
           className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-          to="/schedule"
+          to="/main/schedule"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
             <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
@@ -51,7 +51,7 @@ const AllSiteManu = () => {
 
         <NavLink
           className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-          to="/order"
+          to="/main/order"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
             <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
@@ -65,7 +65,7 @@ const AllSiteManu = () => {
 
         <NavLink
           className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-          to="/subscriptions"
+          to="/main/subscriptions"
         >
           <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
             <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">

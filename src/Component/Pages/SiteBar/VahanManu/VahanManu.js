@@ -7,7 +7,7 @@ const VahanManu = () => {
     <div>
       <NavLink
         className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-        to="/choose"
+        to="/main/choose"
       >
         <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
           <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
@@ -21,7 +21,7 @@ const VahanManu = () => {
 
       <NavLink
         className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-        to="/add"
+        to="/main/add"
       >
         <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
           <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">
@@ -35,7 +35,7 @@ const VahanManu = () => {
 
       <NavLink
         className={`flex items-center ({ isActive }) => isActive ? "active" : undefined`}
-        to="/calculate"
+        to="/main/calculate"
       >
         <div className="flex justify-between items-center xl:w-[418px] lg:w-[360px] md:w-[320px] xl:h-[70px] lg:h-[60px] md:h-[50px] h-[60px] px-6 rounded">
           <h2 className="xl:text-[25px] lg:text-[22px] md:text-[20px] text-[22px] font-semibold interBold">

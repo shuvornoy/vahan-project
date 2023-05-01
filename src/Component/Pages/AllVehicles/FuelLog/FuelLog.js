@@ -12,12 +12,12 @@ const FuelLog = () => {
         <Vehicles />
 
         <div className="xl:w-[800px] lg:w-[570px] w-full shadow-2xl bg-base-100 xl:px-16 lg:p-12 md:p-8 p-4">
-          <h2 className="lg:text-[42px] md:text-[30px] text-[28px] font-semibold">
+          <h2 className="lg:text-[42px] md:text-[30px] text-[28px] font-semibold interSemi">
             Add Fuel Log
           </h2>
 
           <div className="bg-base-100 shadow-xl rounded-lg mt-8">
-            <div className="flex justify-between items-center rounded-t-lg bg-[#1B2551] text-white h-[60px] lg:px-[50px] px-4 lg:text-[24px] md:text-[20px] text[16px]">
+            <div className="flex justify-between items-center rounded-t-lg bg-[#1B2551] text-white h-[60px] lg:px-[50px] px-4 lg:text-[24px] md:text-[20px] text[16px] sansReg font-semibold">
               <h2>Choose Car For Refueling</h2>
               <h3>
                 <AiFillCaretUp />
@@ -25,10 +25,10 @@ const FuelLog = () => {
             </div>
             <div className="flex justify-between items-center lg:px-[50px] px-4 text-[14px] font-medium my-4">
               <div>
-                <h2 className="md:text-[18px] text[16px]  font-semibold">
+                <h2 className="md:text-[18px] text[16px]  font-semibold sansReg">
                   Car Name Goes Here
                 </h2>
-                <span className="md:text-[16px] text-[14px] font-medium">
+                <span className="md:text-[16px] text-[14px] font-medium sansReg">
                   Car Model
                 </span>
               </div>
@@ -41,10 +41,10 @@ const FuelLog = () => {
             </div>
             <div className="flex justify-between items-center lg:px-[50px] px-4 pb-4 text-[14px] font-medium">
               <div>
-                <h2 className="md:text-[18px] text[16px] font-semibold">
+                <h2 className="md:text-[18px] text[16px] font-semibold sansReg">
                   Car Name Goes Here
                 </h2>
-                <span className="md:text-[16px] text-[14px] font-medium">
+                <span className="md:text-[16px] text-[14px] font-medium sansReg">
                   Car Model
                 </span>
               </div>
@@ -58,7 +58,7 @@ const FuelLog = () => {
 
           <div>
             <div className="flex justify-between items-center text-[24px] my-6">
-              <h2 className="font-bold">Fuel Details</h2>
+              <h2 className="font-bold interBold">Fuel Details</h2>
               <h3>
                 <AiFillCaretUp />
               </h3>
@@ -70,10 +70,10 @@ const FuelLog = () => {
                 <span>
                   <AiOutlineColumnHeight />
                 </span>
-                <h2 className="font-semibold">Odo Counter (KM)</h2>
+                <h2 className="font-semibold sansReg">Odo Counter (KM)</h2>
               </div>
               <div className="flex items-center gap-2">
-                <h2>012345678</h2>
+                <h2 className="sansReg ">012345678</h2>
                 <span>
                   <BiCaretDown />
                 </span>
@@ -84,10 +84,10 @@ const FuelLog = () => {
                 <span>
                   <AiOutlineColumnHeight />
                 </span>
-                <h2 className="font-semibold">Fuel Type</h2>
+                <h2 className="font-semibold sansReg">Fuel Type</h2>
               </div>
               <div className="flex items-center gap-2">
-                <h2>Diseal</h2>
+                <h2 className="sansReg ">Diseal</h2>
                 <span>
                   <BiCaretDown />
                 </span>
@@ -98,10 +98,10 @@ const FuelLog = () => {
                 <span>
                   <AiOutlineColumnHeight />
                 </span>
-                <h2 className="font-semibold">No. of Liters</h2>
+                <h2 className="font-semibold sansReg">No. of Liters</h2>
               </div>
               <div className="flex items-center gap-2">
-                <h2>012345678</h2>
+                <h2 className="sansReg ">012345678</h2>
                 <span>
                   <BiCaretDown />
                 </span>
@@ -112,10 +112,10 @@ const FuelLog = () => {
                 <span>
                   <AiOutlineColumnHeight />
                 </span>
-                <h2 className="font-semibold">Price/L</h2>
+                <h2 className="font-semibold sansReg">Price/L</h2>
               </div>
               <div className="flex items-center gap-2">
-                <h2>245 INR</h2>
+                <h2 className="sansReg ">245 INR</h2>
                 <span>
                   <BiCaretDown />
                 </span>
@@ -126,10 +126,10 @@ const FuelLog = () => {
                 <span>
                   <AiOutlineColumnHeight />
                 </span>
-                <h2 className="font-semibold">Date</h2>
+                <h2 className="font-semibold sansReg">Date</h2>
               </div>
               <div className="flex items-center gap-2">
-                <h2>245 INR</h2>
+                <h2 className="sansReg ">245 INR</h2>
                 <span>
                   <BiCaretDown />
                 </span>
@@ -151,7 +151,7 @@ const FuelLog = () => {
             </p>
           </div>
 
-          <button className="btn bg-[#F36E21] w-full mt-6 border-none">
+          <button className="btn bg-[#F36E21] w-full mt-6 border-none sansBold font-bold text-[18px]">
             CONTINUE
           </button>
         </div>

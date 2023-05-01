@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from '../../../asete/logo/Layer_1.png';
 import { CiSearch } from "react-icons/ci";
 
-const Navbar = () => {
+const Navbar = ({ logIn, setLogIn }) => {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="navbar bg-[#fff]">
@@ -45,10 +45,10 @@ const Navbar = () => {
                 <Link>Contact Us</Link>
               </li>
               <Link className="hover:bg-[#f36e21] px-3 py-1 rounded hover:text-white text-[14px] interBold">
-                <button>LOG IN</button>
+                <button onClick={() => setLogIn(false)}>LOG IN</button>
               </Link>
               <Link className="ml-2 bg-[#f36e21] px-3 py-1 rounded text-white text-[14px] sansBold">
-                <button>REGISTER</button>
+                <button onClick={() => setLogIn(true)}>REGISTER</button>
               </Link>
             </ul>
           </div>
@@ -80,10 +80,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <Link className="hover:bg-[#f36e21] px-3 py-1 rounded hover:text-white hidden lg:block text-[16px] interBold">
-            <button>LOG IN</button>
+            <button onClick={() => setLogIn(false)}>LOG IN</button>
           </Link>
           <Link className="ml-2 bg-[#f36e21] px-3 py-1 rounded text-white hidden lg:block text-[16px] sansBold">
-            <button>REGISTER</button>
+            <button onClick={() => setLogIn(true)}>REGISTER</button>
           </Link>
         </div>
       </div>

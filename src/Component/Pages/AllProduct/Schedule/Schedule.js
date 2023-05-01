@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { DayPicker } from "react-day-picker";
+import React from 'react';
+import Calendars from "../../../Calendars/Calendars";
 import BannerSmoll from "../../AllBanner/BannerSmoll/BannerSmoll";
 import AllSiteManu from "../../SiteBar/AllSiteManu/AllSiteManu";
 
 const Schedule = () => {
-    const [selected, setSelected] = useState(new Date());
+    
     return (
       <div>
         <BannerSmoll />
@@ -19,12 +19,7 @@ const Schedule = () => {
               Pick Suitable Dates for Car Wash
             </p>
             <div className="w-full">
-              <DayPicker
-                mode="single"
-                selected={selected}
-                onSelect={setSelected}
-                className="w-full"
-              />
+              <Calendars />
             </div>
             <button className="btn bg-[#F36E21] w-full mt-6 border-none sansBold font-bold">
               CONTINUE

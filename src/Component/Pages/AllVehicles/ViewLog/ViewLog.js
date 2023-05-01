@@ -1,9 +1,9 @@
 import React from "react";
 import Vehicles from "../../SiteBar/Vehicles/Vehicles";
 import VehiclesBanners from "../../AllBanner/VehiclesBanner/VehiclesBanners";
-import { AiFillCaretUp, AiOutlineColumnHeight } from "react-icons/ai";
-import { BiCaretDown } from "react-icons/bi";
-import './ViewLog.css'
+import { AiFillCaretUp, AiOutlineEnvironment } from "react-icons/ai";
+
+import "./ViewLog.css";
 
 const ViewLog = () => {
   return (
@@ -56,84 +56,127 @@ const ViewLog = () => {
               />
             </div>
           </div>
-
-          <div>
-            <div className="flex justify-between items-center text-[24px] my-6">
-              <h2 className="font-bold">Fuel Details</h2>
-              <h3>
-                <AiFillCaretUp />
-              </h3>
+          <div className="flex mt-16">
+            <div className="">
+              <div className="w-[2px] h-[440px] bg-[#000] absolute "></div>
+              <div className="w-5 h-5 bg-[#F36E21] rounded-[50px] ml-[-9px] relative"></div>
+              <div className="w-5 h-5 bg-[#F36E21] rounded-[50px] mt-16  ml-[-9px] relative"></div>
+              <div className="w-5 h-5 bg-[#F36E21] rounded-[50px] mt-16  ml-[-9px] relative"></div>
+              <div className="w-5 h-5 bg-[#F36E21] rounded-[50px] mt-16  ml-[-9px] relative"></div>
+              <div className="w-5 h-5 bg-[#F36E21] rounded-[50px] mt-16  ml-[-9px] relative"></div>
             </div>
-            <hr />
-
-            <div className="flex justify-between items-center md:text-[16px] text-[14px] mt-6">
-              <div className="flex items-center gap-2">
-                <span>
-                  <AiOutlineColumnHeight />
-                </span>
-                <h2 className="font-semibold">Odo Counter (KM)</h2>
-              </div>
-              <div className="flex items-center gap-2">
-                <h2>012345678</h2>
-                <span>
-                  <BiCaretDown />
-                </span>
-              </div>
-            </div>
-            <div className="flex justify-between items-center md:text-[16px] text-[14px] mt-6">
-              <div className="flex items-center gap-2">
-                <span>
-                  <AiOutlineColumnHeight />
-                </span>
-                <h2 className="font-semibold">Fuel Type</h2>
-              </div>
-              <div className="flex items-center gap-2">
-                <h2>Diseal</h2>
-                <span>
-                  <BiCaretDown />
-                </span>
-              </div>
-            </div>
-            <div className="flex justify-between items-center md:text-[16px] text-[14px] mt-6">
-              <div className="flex items-center gap-2">
-                <span>
-                  <AiOutlineColumnHeight />
-                </span>
-                <h2 className="font-semibold">No. of Liters</h2>
-              </div>
-              <div className="flex items-center gap-2">
-                <h2>012345678</h2>
-                <span>
-                  <BiCaretDown />
-                </span>
-              </div>
-            </div>
-            <div className="flex justify-between items-center md:text-[16px] text-[14px] mt-6">
-              <div className="flex items-center gap-2">
-                <span>
-                  <AiOutlineColumnHeight />
-                </span>
-                <h2 className="font-semibold">Price/L</h2>
-              </div>
-              <div className="flex items-center gap-2">
-                <h2>245 INR</h2>
-                <span>
-                  <BiCaretDown />
-                </span>
-              </div>
-            </div>
-            <div className="flex justify-between items-center md:text-[16px] text-[14px] mt-6">
-              <div className="flex items-center gap-2">
-                <span>
-                  <AiOutlineColumnHeight />
-                </span>
-                <h2 className="font-semibold">Date</h2>
-              </div>
-              <div className="flex items-center gap-2">
-                <h2>245 INR</h2>
-                <span>
-                  <BiCaretDown />
-                </span>
+            <div className="h-[440px] w-[100%]">
+              <div className="ml-11">
+                <div className="mt-[-6px]  md:flex md:justify-between block ">
+                  <div className="">
+                    <h3 className="md:text-[20px] text-[16px] font-[600] text-[#000]">
+                      Date Month, Year
+                    </h3>
+                    <p className="text-[12px] lg:text-[16px] md:text-[10px] font-[400] text-[#000]">
+                      24 Liters Diseal | Price: 79.5 INR
+                    </p>
+                    <p className="text-[12px] font-[400] text-[#A1A1A1]">
+                      Odo Meter Reading: 458923
+                    </p>
+                  </div>
+                  <div className="flex mt-2">
+                    <span>
+                      {" "}
+                      <AiOutlineEnvironment className="h-[20px]" />{" "}
+                    </span>
+                    <p className="text-[12px] font-[400] ml-1">
+                      Pump Name, 123, XYZ{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="lg:mt-3 md:mt-5 mt-0 md:flex md:justify-between block ">
+                  <div className="">
+                    <h3 className="md:text-[20px] text-[16px] font-[600] text-[#000]">
+                      Date Month, Year
+                    </h3>
+                    <p className="text-[12px] lg:text-[16px] md:text-[10px] font-[400] text-[#000]">
+                      24 Liters Diseal | Price: 79.5 INR
+                    </p>
+                    <p className="text-[12px] font-[400] text-[#A1A1A1]">
+                      Odo Meter Reading: 458923
+                    </p>
+                  </div>
+                  <div className="flex mt-2">
+                    <span>
+                      {" "}
+                      <AiOutlineEnvironment className="h-[20px]" />{" "}
+                    </span>
+                    <p className="text-[12px] font-[400] ml-1">
+                      Pump Name, 123, XYZ{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="lg:mt-3 md:mt-5 mt-0 md:flex md:justify-between block  ">
+                  <div className="">
+                    <h3 className="md:text-[20px] text-[16px] font-[600] text-[#000]">
+                      Date Month, Year
+                    </h3>
+                    <p className="text-[12px] lg:text-[16px] md:text-[10px] font-[400] text-[#000]">
+                      24 Liters Diseal | Price: 79.5 INR
+                    </p>
+                    <p className="text-[12px] font-[400] text-[#A1A1A1]">
+                      Odo Meter Reading: 458923
+                    </p>
+                  </div>
+                  <div className="flex mt-2">
+                    <span>
+                      {" "}
+                      <AiOutlineEnvironment className="h-[20px]" />{" "}
+                    </span>
+                    <p className="text-[12px] font-[400] ml-1">
+                      Pump Name, 123, XYZ{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="lg:mt-3 md:mt-5 mt-0 md:flex md:justify-between block  ">
+                  <div className="">
+                    <h3 className="md:text-[20px] text-[16px] font-[600] text-[#000]">
+                      Date Month, Year
+                    </h3>
+                    <p className="text-[12px] lg:text-[16px] md:text-[10px] font-[400] text-[#000]">
+                      24 Liters Diseal | Price: 79.5 INR
+                    </p>
+                    <p className="text-[12px] font-[400] text-[#A1A1A1]">
+                      Odo Meter Reading: 458923
+                    </p>
+                  </div>
+                  <div className="flex mt-2">
+                    <span>
+                      {" "}
+                      <AiOutlineEnvironment className="h-[20px]" />{" "}
+                    </span>
+                    <p className="text-[12px] font-[400] ml-1">
+                      Pump Name, 123, XYZ{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="lg:mt-3 md:mt-5 mt-0 md:flex md:justify-between block  ">
+                  <div className="">
+                    <h3 className="md:text-[20px] text-[16px] font-[600] text-[#000]">
+                      Date Month, Year
+                    </h3>
+                    <p className="text-[12px] lg:text-[16px] md:text-[10px] font-[400] text-[#000]">
+                      24 Liters Diseal | Price: 79.5 INR
+                    </p>
+                    <p className="text-[12px] font-[400] text-[#A1A1A1]">
+                      Odo Meter Reading: 458923
+                    </p>
+                  </div>
+                  <div className="flex mt-2">
+                    <span>
+                      {" "}
+                      <AiOutlineEnvironment className="h-[20px]" />{" "}
+                    </span>
+                    <p className="text-[12px] font-[400] ml-1">
+                      Pump Name, 123, XYZ{" "}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

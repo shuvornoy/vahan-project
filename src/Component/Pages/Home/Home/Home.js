@@ -6,21 +6,21 @@ import Partner from './../Partner/Partner';
 import Download from './../Download/Download';
 import Review from './../Review/Reciew';
 import Questions from './../Questions/Questions';
-import NewsLater from './../NewsLater/NewsLater';
 
-const Home = () => {
-    return (
-      <div>
-        <Banner />
-        <Features />
-        <Count />
-        <Partner />
-        <Download />
-        <Review />
-        <Questions />
-        <NewsLater />
-      </div>
-    );
+
+const Home = ({ logIn }) => {
+  console.log(logIn, 'hello');
+  return (
+    <div>
+      <Banner logIn={logIn} />
+      <Features />
+      <Count />
+      <Partner />
+      <Download />
+      <Review />
+      <Questions />
+    </div>
+  );
 };
 
 export default Home;
