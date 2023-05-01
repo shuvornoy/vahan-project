@@ -12,11 +12,11 @@ const Home = ({ logIn }) => {
   console.log(logIn, 'hello');
   return (
     <div>
-      <Banner logIn={logIn} />
+      {/* <Banner logIn={logIn} />
       <Features />
       <Count />
       <Partner />
-      <Download />
+      <Download />*/}
       <Review />
       <Questions />
     </div>

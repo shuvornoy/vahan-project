@@ -1,17 +1,18 @@
 import React from 'react';
+import './Question.css'
 
 const Questions = () => {
     return (
-      <div className="my-8 max-w-7xl mx-auto">
-        <h2 className="lg:text-4xl md:text-2xl text-xl text-center ">
+      <div className="my-8 xl:question_main max-w-7xl mx-auto">
+        <h2 className="xl:text-[52px] lg:text-4xl md:text-2xl text-2xl text-center ">
           <span className="relative z-[1] sansBold">Questions</span> related to
           Vahan+
         </h2>
-        <div className="bg-[#F36E21] lg:w-[172px] md:w-[112px] w-[96px] h-[8px] text-center absolute xl:ml-[407px] lg:ml-[280px] md:ml-[230px] ml-[30px] mt-[-10px]"></div>
+        <div className="bg-[#F36E21] xl:w-[244px] lg:w-[170px] md:w-[112px] w-[114px] xl:h-[12px] h-[8px] text-center absolute xl:ml-[306px] lg:ml-[280px] md:ml-[230px] ml-[5px] xl:mt-[-8px] mt-[-10px]"></div>
 
-        <dir className="md:px-8 px-4 mt-14">
+        <dir className="xl:px-0 px-2 mt-14 ">
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2 sansBold">
+            <div className="collapse-title text-xl font-medium my-3 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
             <div className="collapse-content interReg">
@@ -24,7 +25,7 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2 sansBold">
+            <div className="collapse-title text-xl font-medium my-3 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
             <div className="collapse-content interReg">
@@ -37,7 +38,7 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2 sansBold">
+            <div className="collapse-title text-xl font-medium my-3 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
             <div className="collapse-content interReg">
@@ -50,7 +51,7 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2 sansBold">
+            <div className="collapse-title text-xl font-medium my-3 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
             <div className="collapse-content interReg">
@@ -63,7 +64,7 @@ const Questions = () => {
             </div>
           </div>
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
-            <div className="collapse-title text-xl font-medium my-2 sansBold">
+            <div className="collapse-title text-xl font-medium my-3 sansBold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             </div>
             <div className="collapse-content interReg">
