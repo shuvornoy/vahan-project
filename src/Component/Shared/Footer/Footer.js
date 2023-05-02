@@ -5,13 +5,13 @@ import google from '../../../asete/footer/Google_Play_Badge_001eb0f465 1.png'
 import app from '../../../asete/footer/App_Store_Badge_f39b9659af 1.png';
 import footer from "../../../asete/logo/logo.png";
 import NewsLater from '../../Pages/Home/NewsLater/NewsLater';
-import './Footer.css'
+
 
 const Footer = () => {
     return (
       <div className="bg-[#1B2551]">
         <NewsLater />
-        <footer className="footer xl:footer_main lg:max-w-screen-lg md:max-w-screen-md w-full mx-auto py-[75px] px-2 xl:px-0 text-white md:flex block justify-between">
+        <footer className="footer xl:w-[1171px] lg:max-w-screen-lg md:max-w-screen-md w-full mx-auto py-[75px] px-2 xl:px-0 text-white md:flex block justify-between">
           <div className="text-white ">
             <img
               className="xl:w-[248px] lg:w-[200px] md:w-[160px] w-full xl:h-[38px] lg:h-[26px] md:h-[22px] h-full"

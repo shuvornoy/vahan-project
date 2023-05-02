@@ -13,10 +13,10 @@ const Home = ({ logIn }) => {
   return (
     <div>
       {/* <Banner logIn={logIn} />
-      <Features />
+      <Features />*/}
       <Count />
       <Partner />
-      <Download />*/}
+      <Download />
       <Review />
       <Questions />
     </div>

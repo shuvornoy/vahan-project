@@ -1,14 +1,14 @@
 import React from 'react';
-import './Question.css'
+
 
 const Questions = () => {
     return (
-      <div className="my-8 xl:question_main max-w-7xl mx-auto">
+      <div className="my-8 xl:w-[1219px] max-w-7xl mx-auto">
         <h2 className="xl:text-[52px] lg:text-4xl md:text-2xl text-2xl text-center ">
           <span className="relative z-[1] sansBold">Questions</span> related to
           Vahan+
         </h2>
-        <div className="bg-[#F36E21] xl:w-[244px] lg:w-[170px] md:w-[112px] w-[114px] xl:h-[12px] h-[8px] text-center absolute xl:ml-[306px] lg:ml-[280px] md:ml-[230px] ml-[5px] xl:mt-[-8px] mt-[-10px]"></div>
+        <div className="bg-[#F36E21] xl:w-[244px] lg:w-[170px] md:w-[112px] w-[114px] xl:h-[12px] h-[8px] text-center absolute xl:ml-[276px] lg:ml-[280px] md:ml-[230px] ml-[5px] xl:mt-[-8px] mt-[-10px]"></div>
 
         <dir className="xl:px-0 px-2 mt-14 ">
           <div tabIndex={0} className="collapse collapse-plus border-t-2">
