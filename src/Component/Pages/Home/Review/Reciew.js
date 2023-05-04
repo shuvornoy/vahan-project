@@ -3,7 +3,7 @@ import review from '../../../../asete/review/Group.png'
 
 const Review = () => {
     return (
-      <div className="my-14 w-full">
+      <div className="my-14 w-full mx-auto">
         <div className="text-center xl:text-[52px] xl:leading-[60px] text-3xl mb-16 ">
           <h2 className="sansBold">Our Testimonials </h2>
           <p className="sansReg">

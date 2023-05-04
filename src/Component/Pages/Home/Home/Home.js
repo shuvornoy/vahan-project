@@ -12,8 +12,8 @@ const Home = ({ logIn }) => {
   console.log(logIn, 'hello');
   return (
     <div>
-      {/* <Banner logIn={logIn} />
-      <Features />*/}
+      <Banner />
+      <Features />
       <Count />
       <Partner />
       <Download />
