@@ -11,7 +11,7 @@ const Footer = () => {
     return (
       <div className="bg-[#1B2551]">
         <NewsLater />
-        <footer className="footer xl:w-[1171px] lg:max-w-screen-lg md:max-w-screen-md w-full mx-auto py-[75px] px-2 xl:px-0 text-white md:flex block justify-between">
+        <footer className="footer xl:w-[1300px]  w-full mx-auto py-[75px] px-2 xl:px-0 text-white md:flex block justify-between">
           <div className="text-white ">
             <img
               className="xl:w-[248px] lg:w-[200px] md:w-[160px] w-full xl:h-[38px] lg:h-[26px] md:h-[22px] h-full"
@@ -19,7 +19,7 @@ const Footer = () => {
               alt=""
             />
           </div>
-          <div className="md:w-[313px] w-full lg:text-[18px] md:text-[16px] text-[28px] lg:leading-7 md:leading-5 leading-7 interReg font-medium md:mt-0 mt-4">
+          <div className="md:w-[313px] w-full lg:text-[18px] md:text-[16px] text-[28px] lg:leading-7 md:leading-5 leading-7 interReg font-[400] md:mt-0 mt-4">
             <p>
               Hello, we are ABC. trying to make an effort to put the right
               people for you <br /> to get the best results. Just insight
@@ -54,7 +54,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="lg:text-[16px] md:text-[14px] text-[28px] lg:leading-7 md:leading-5 leading-7 font-[500] interReg xl:ml-[-150px] lg:ml-[-100px] md:ml[-80px] ml-0">
+          <div className="lg:text-[16px] md:text-[14px] text-[28px] lg:leading-7 md:leading-5 leading-7 font-[500] interReg ml-[-200px] mr-10">
             <span className="footer-title font-bold">Explore</span>
             <Link className="link link-hover">Resources</Link>
             <Link className="link link-hover">Blog</Link>
