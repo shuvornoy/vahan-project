@@ -8,14 +8,14 @@
 
 @media (min-width: 1920px) and (max-width: 2199px){
     .banner{
-        height: 100vh;
+        height: 80vh;
          background-size: contain;
     }
 
 }
 @media (min-width: 1440px) and (max-width: 1919px){
     .banner{
-        height: 100vh;
+        height: 70vh;
          background-size: cover;
          background-position: center;
     }
@@ -49,7 +49,7 @@
 }
 @media (min-width: 1024px) and (max-width: 1189px){
     .banner{
-        height: 60vh;
+        height: 55vh;
         background-position: center;
         background-size: cover;
     }
@@ -71,7 +71,7 @@
 }
 @media (min-width: 768px) and (max-width: 1023px){
     .banner{
-        height: 60vh;
+        height: 50vh;
         background-position: center;
          background-size: cover;
     }
@@ -114,108 +114,3 @@
 
 
 
-
-
-
-/* .banner{
-    background-image: url('../../../..//asete/banner/banner.png');
-    width: 100%;
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media (min-width: 1920px) and (max-width: 2199px){
-    .banner{
-        height: 100vh;
-         background-size: contain;
-    }
-
-}
-@media (min-width: 1440px) and (max-width: 1919px){
-    .banner{
-        height: 100vh;
-         background-size: contain;
-    }
-    .box_hig{
-        height: 80vh;
-    }
-}
-@media (min-width: 1280px) and (max-width: 1369px){
-    .banner{
-        width: 100%;
-        height: 70vh;
-         background-size: cover;
-    }
-    .box_hig{
-        height: 70vh;
-    }
-    .solution{
-        font-size: 50px;
-    }
-    .detaile{
-        padding: 12px 0;
-        
-    }
-    .site{
-        height: 49vh;
-    }
- 
-}
-@media (min-width: 1024px) and (max-width: 1189px){
-    .banner{
-        height: 60vh;
-         background-size: cover;
-    }
-    .box_hig{
-        height: 70vh;
-    }
-    .detaile{
-        padding: 12px 0;
-        display: none;
-    }
-    .site{
-        height: 60vh;
-    }
-    .main-box{
-        margin-bottom: 45px;
-    }
-   
- 
-}
-@media (min-width: 768px) and (max-width: 1023px){
-    .banner{
-        height: 60vh;
-         background-size: cover;
-    }
-    .box_hig{
-        height: 70vh;
-    }
-    .detaile{
-        padding: 12px 0;
-        display: none;
-    }
-    .site{
-        height: 50vh;
-    }
-    .main-box{
-        margin-bottom: 45px;
-    }
-   
- 
-}
-
-
-@media only screen and (max-width: 600px){
-    .banner{
-        height: 115vh;
-    }
-}
-@media only screen and (max-width: 320px){
-    .banner{
-        height: 130vh;
-    }
-}
-
-
- */

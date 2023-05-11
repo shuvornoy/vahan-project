@@ -3,7 +3,7 @@ import { MdShowChart } from "react-icons/md";
 
 const Partner = () => {
     return (
-      <div className="max-w-7xl mx-auto">
+      <div className="xl:w-[1400px] mx-auto py-20">
         <div className="lg:my-16 my-8">
           <div className="md:flex mx-auto block justify-center items-center lg:gap-14 md:gap-6 xl:px-0 lg:px-8 md:px-8 px-4">
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
@@ -12,7 +12,7 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className="xl:text-[20px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
+                    <h2 className="xl:text-[22px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
                       Use You Connect
                     </h2>
                     <p className="leading-[1] xl:text-[19px] lg:text-[16px] text-[12px] font-medium interReg">
@@ -24,7 +24,7 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className="xl:text-[20px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
+                    <h2 className="xl:text-[22px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
                       Use You Connect
                     </h2>
                     <p className="leading-[1] xl:text-[19px] lg:text-[16px] text-[12px] font-medium interReg">
@@ -39,7 +39,7 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className=" xl:text-[20px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
+                    <h2 className=" xl:text-[22px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
                       Use You Connect
                     </h2>
                     <p className="leading-[1] xl:text-[19px] lg:text-[16px] text-[12px] font-medium interReg">
@@ -51,7 +51,7 @@ const Partner = () => {
                   <div className="lg:ml-[15%] ml-[10%]">
                     <MdShowChart size={28} />
 
-                    <h2 className=" xl:text-[20px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
+                    <h2 className=" xl:text-[22px] lg:text-[18px] md:text-[12px] text-xl font-bold sansBold my-2">
                       Use You Connect
                     </h2>
                     <p className="leading-[1] xl:text-[19px] lg:text-[16px] text-[12px] font-medium interReg">
@@ -62,7 +62,7 @@ const Partner = () => {
               </div>
             </div>
             <div className="xl:w-[42%] lg:w-[50%] md:w-[50%] w-full xl:mt-[-80px] mt-10 md:mt-0">
-              <h2 className=" xl:text-[52px] lg:text-4xl text-2xl font-medium xl:leading-[60px] sansReg">
+              <h2 className=" xl:text-[52px]  lg:text-4xl text-2xl font-[400] xl:leading-[60px] sansReg">
                 Why Choose Vahan+ as <br /> your
                 <span className="relative z-[1] ml-2 sansBold">
                   Car Partner
@@ -76,7 +76,7 @@ const Partner = () => {
                 adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                 laoreet dolore magna aliquam erat volutpat.
               </p>
-              <button className="px-4 py-2 bg-[#F36E21] text-white rounded sansBold xl:mt-[39px]">
+              <button className="px-8 py-4 bg-[#F36E21] text-white rounded sansBold xl:mt-[39px] text-[18px] font-[700]">
                 GET STARTED NOW
               </button>
             </div>
