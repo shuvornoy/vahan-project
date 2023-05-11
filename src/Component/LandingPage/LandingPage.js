@@ -29,7 +29,7 @@ const LandingPage = () => {
               sed diam
             </p>
             <Link to="/main/home">
-              <button className="border-none rounded xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] px-10 py-3 font-semibold bg-[#F36E21] hover:bg-black mt-6">
+              <button className="border-none rounded xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] px-10 py-3 font-semibold bg-[red] hover:bg-black mt-6">
                 GET STARTED NOW!
               </button>
             </Link>
