@@ -10,7 +10,7 @@ const Review = () => {
           <p className="sansReg">
             What Our Clients Are <span className="relative z-[1]">Saying</span>
           </p>
-          <div className="bg-[#F36E21] xl:w-[145px] w-[90px] xl:h-[12px] h-[8px] text-center absolute ml-[1110px] xl:mt-[-16px] mt-[-11px]"></div>
+          <div className="bg-[#F36E21] xl:w-[145px] w-[90px] xl:h-[12px] h-[8px] text-center absolute xl:ml-[61%]  lg:ml-[61%] md:ml-[63%] ml-[35%] xl:mt-[-16px] mt-[-11px]"></div>
         </div>
         <div className="lg:flex block items-center xl:gap-[105px] gap-8 lg:px-0 md:px-8 px-4  lg:overflow-hidden xl:h-[380px] lg:h-[240px]">
           <div className="shadow-2xl xl:w-[845px] lg:w-[640px] w-full p-8 xl:h-[240px] lg:h-[200px] md:h-[180px] h-full text-center relative opacity-100 xl:ml-[-395px] lg:ml-[-450px] ">

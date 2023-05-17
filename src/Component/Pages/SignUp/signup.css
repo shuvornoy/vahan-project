@@ -1,0 +1,14 @@
+@media (min-width: 1200px) and (max-width: 1899px) {
+    .from-width{
+        width: 400px;
+        height: 430px;
+        margin-top: 0px;
+        margin-right: 30px;
+    }
+    .width-input{
+        width: 330px;
+    }
+    .city{
+        width: 155px;
+    }
+}
